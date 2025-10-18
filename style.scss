@@ -26,6 +26,54 @@ body {
     gap: $gap;
 }
 
+
+@mixin card($bg-image) {
+  width: 100%;
+  background-image: url(#{$bg-image});
+  background-size: cover;
+  background-position: center;
+  aspect-ratio: 1 / 1;
+  border-radius: 0.7rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1rem;
+  box-sizing: border-box;
+
+  .top {
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+  }
+
+  .icon {
+    background-color: rgba(255, 255, 255, .05);
+    backdrop-filter: blur(2rem);
+    border: 1px solid rgba(255, 255, 255, .15);
+    border-radius: 50%;
+    padding: 0.5rem;
+    width: fit-content;
+  }
+
+  .bottom {
+    background-color: #8f8c8cad;
+    backdrop-filter: blur(6px);
+    border: 1px solid white;
+    border-radius: 0.7rem;
+    padding: 1.5rem 1rem;
+    display: flex;
+    justify-content: space-between;
+
+    h5 {
+      font-family: Chillax, sans-serif;
+      font-size: 1.5rem;
+      font-weight: 400;
+      margin: 0;
+    }
+  }
+}
+
+
 section {
     max-width: 2000px;
 }
@@ -158,6 +206,132 @@ main {
       
     }
 
+    section.view4{
+        width: 100%;
+        padding: 1rem;
+        @include flex-column(1rem);
+
+        .top{
+            width: 100%;
+
+            img{
+                width: 100%;
+                border-radius: 0.7rem;
+            }
+        }
+        .bottom {
+            background-color: #292929;
+            border-radius: 0.7rem;
+            padding: 1.5rem;
+            @include flex-column(3rem);
+
+            
+
+            .text {
+                @include flex-column(0.7rem);
+
+                h1 {
+                    font-family: Chillax, sans-serif;
+                    font-weight: 100;
+                    font-size: 3rem;
+                    text-transform: uppercase;
+                }
+
+                p {
+                    font-family: Roboto Mono, sans-serif;
+                    font-weight: 100;
+                    font-size: 1.3rem;
+                    opacity: 0.6;
+                    line-height: 1.5;
+                }
+            }
+
+        }
+      
+    }
+
+    section.view5{
+
+        width: 100%;
+        justify-content: flex-start;
+        padding: 2rem;
+
+        h2{
+            font-size: 2rem;
+            font-family: Chillax,sans-serif;
+            font-weight: 400;
+
+            
+        }
+    }
+
+    section.view6{
+        @include flex-column(2rem);
+        width: 100%;
+        padding: 1rem;
+
+       .card1{
+        @include card('/card1.webp');
+       }
+
+       .card2{
+        @include card('/card2.webp');
+       }
+
+       .card3{
+        @include card('/card3.webp');
+       }
+
+    }
+
+     section.view7 {
+        width: 100%;
+        @include flex-column(1rem);
+        padding: 1rem;
+
+        .top {
+            width: 100%;
+
+            img {
+                width: 100%;
+                border-radius: 0.7rem;
+            }
+        }
+
+        .bottom {
+            background-color: #292929;
+            border-radius: 0.7rem;
+            padding: 2.1rem;
+            @include flex-column(3rem);
+            gap: 1.2rem;
+        
+
+            .text {
+                @include flex-column(0rem);
+
+                h1 {
+                   
+                    font-family: Chillax, sans-serif;
+                    font-weight: 200;
+                    font-size: 2.5rem;
+                    text-transform: uppercase;
+                }
+
+                
+                button {
+                    margin-top: 3.5rem;
+                    width: fit-content;
+                    border: none;
+                    outline: none;
+                    padding: 0.7rem 1rem;
+                    border-radius: 0.5rem;
+                }
+            }
+
+        }
+    }
+
+
 }
 
 @media (min-width:900px) {
@@ -165,7 +339,7 @@ main {
 
         section.view1 {
             flex-direction: row;
-            padding: 1rem 4rem;
+            padding: 1rem ;
 
             .top,
             .bottom {
@@ -216,6 +390,64 @@ main {
                 p{
                     font-size: 0.2rem;
                     font-weight: 100;
+                }
+            }
+        }
+
+         section.view4{
+            flex-direction: row;
+
+            .top,.bottom{
+                width: 50%;
+            }
+
+            .bottom{
+                justify-content: space-between;
+                padding: 3rem;
+            }
+
+            .paragraphs{
+                display: flex;
+                gap: 2rem;
+
+                p{
+                    font-size: 0.5rem;
+                    font-weight: 100;
+                }
+            }
+        }
+
+        section.view5{
+            flex-direction: row;
+            padding: 2rem ;
+        }
+        section.view6{
+            flex-direction: row;
+            padding: 2rem 1rem;
+            gap: 1rem;
+        }
+         section.view7{
+            flex-direction: row;
+            padding: 1rem ;
+
+            .top,
+            .bottom {
+                width: 50%;
+            }
+
+            .bottom {
+                justify-content: space-between;
+                padding: 3rem;
+
+                .text {
+
+                    gap: 10rem;
+
+                    h1 {
+                        font-size: 3.5rem;
+
+                    }
+
                 }
             }
         }
