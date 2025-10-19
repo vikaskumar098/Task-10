@@ -1,8 +1,7 @@
 
 # Alvy Page Clone 🔥✨
 
-**A fully responsive landing page clone of the "Alvy" fashion/creative page — built with HTML + SCSS (compiled → CSS).**  
-**Live Demo:** [🌐 Click Here](https://vikaskumar098.github.io/Task-10/)  
+**A fully responsive landing page clone of the "Alvy" fashion/creative page — built with HTML + SCSS (compiled → CSS).**   
 **GitHub Repo:** [📂 View Code](https://github.com/vikaskumar098/Task-10.git)
 
 ---
