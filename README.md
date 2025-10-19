@@ -112,7 +112,7 @@ npm install --save-dev sass
 # Add in package.json scripts:
 # "watch:sass": "sass --watch style.scss:style.css"
 npm run watch:sass
-
+---
 ## 📌 Notes
 
 * 🪶 Keep image names consistent with HTML references.
