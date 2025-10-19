@@ -139,10 +139,10 @@ This project is licensed under the **MIT License** — feel free to use or modif
 
 ## 👨‍💻 Author
 
-**Vikas Kumar**
-*🌐 [LinkedIn](https://www.linkedin.com/in/vikas0905)*
-*💻 [GitHub](https://github.com/vikaskumar098)*
-
+**Vikas Kumar**  
+🎓 B.Tech (IT) | 💻 Sheryians Coding School – Cohort 2.0  
+🌐 [LinkedIn](https://www.linkedin.com/in/vikas0905)  
+📂 [GitHub](https://github.com/vikaskumar098)
 ---
 
 ⭐ **If you liked this project, don’t forget to give it a star on GitHub!** ⭐
