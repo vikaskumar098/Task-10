@@ -113,36 +113,35 @@ npm install --save-dev sass
 # "watch:sass": "sass --watch style.scss:style.css"
 npm run watch:sass
 ---
-## 📌 Notes
+📌 Notes
 
-* 🪶 Keep image names consistent with HTML references.
-* 🧩 Use `alt` attributes for accessibility.
-* 🧠 All SCSS mixins are reusable — great for scaling multiple projects.
-* 📱 Always test on mobile and desktop before deployment.
+🪶 Keep image names consistent with HTML references.
 
----
+🧩 Use alt attributes for accessibility.
 
-## 🤝 Contributing
+🧠 All SCSS mixins are reusable — great for scaling multiple projects.
 
-1. Fork this repository
-2. Create a new branch (`feature/new-section`)
-3. Commit changes and push
-4. Create a Pull Request 🎉
+📱 Always test on mobile and desktop before deployment.
 
----
+🤝 Contributing
 
-## 📝 License
+Fork this repository
 
-This project is licensed under the **MIT License** — feel free to use or modify it!
+Create a new branch (feature/new-section)
 
----
+Commit changes and push
 
-## 👨‍💻 Author
+Create a Pull Request 🎉
 
-**Vikas Kumar**  
-🎓 B.Tech (IT) | 💻 Sheryians Coding School – Cohort 2.0  
-🌐 [LinkedIn](https://www.linkedin.com/in/vikas0905)  
-📂 [GitHub](https://github.com/vikaskumar098)
----
+📝 License
+
+This project is licensed under the MIT License — feel free to use or modify it!
+
+👨‍💻 Author
+
+Vikas Kumar
+🌐 LinkedIn
+
+💻 GitHub
 
 ⭐ **If you liked this project, don’t forget to give it a star on GitHub!** ⭐
