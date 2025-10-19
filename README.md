@@ -140,8 +140,8 @@ This project is licensed under the **MIT License** — feel free to use or modif
 ## 👨‍💻 Author
 
 **Vikas Kumar**
-*🌐 [LinkedIn](https://www.linkedin.com/in/vikas0905)
-*💻 [GitHub](https://github.com/vikaskumar098)
+*🌐 [LinkedIn](https://www.linkedin.com/in/vikas0905)*
+*💻 [GitHub](https://github.com/vikaskumar098)*
 
 ---
 
